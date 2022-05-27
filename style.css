@@ -67,7 +67,7 @@ section.normal{
 background-color: white;
 color: black;
 }
-section.imagem{
+.imagem{
 background-color: rgb(51, 51, 51);
 color: white;
 box-shadow: inset 7px 8px 12px 0px #000000e3;
@@ -81,14 +81,18 @@ section.imagem > p {
     text-shadow: 1px 1px 0px black;
 }
 
-section#img01 {
+#img01 {
     background-image: url(../desafio004/imagens/background001.jpg);
     background-position: right center;
     background-size: cover;
+    box-shadow: inset 7px 8px 12px 0px #000000e3;
+    background-attachment: fixed;
 }
-section#img02 {
+#img02 {
     background-image: url(../desafio004/imagens/background002.jpg);
     background-size: cover;
+    box-shadow: inset 7px 8px 12px 0px #000000e3;
+    background-attachment: fixed;
 }
 
 
